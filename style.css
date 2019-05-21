@@ -1,0 +1,100 @@
+*{
+	--block-half-spacing: 10px;
+}
+
+html{
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	background-color: #222
+}
+
+#container{
+	flex-wrap: wrap;
+}
+
+
+
+.block{
+	margin-bottom: 40px;
+	margin-left: var(--block-half-spacing);
+	margin-right: var(--block-half-spacing);
+	margin-top: 40px;
+}
+	.blockBanner{
+		height: 80px;
+		font-size: 30px;
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+		border: 1px solid #000;
+		font-family: "Roboto Mono"
+	}
+	.blockBody{
+		padding: 10px;
+		background-color: #aaa;
+	}
+		.blockThumbnail{
+			width: 300px;
+			height: 300px;
+			border: none;
+		}
+		.blockText{
+			margin-top: 10px;
+		}
+		.blockRepository{
+			margin-top: 10px;
+		}
+		.blockRepository a{
+			text-decoration: none;
+		}
+
+
+
+
+
+
+
+
+.eCol{
+	display: flex;
+	flex-direction: column;
+}
+.eRow{
+	display: flex;
+	flex-direction: row;
+}
+.eBetween{
+	justify-content: space-between;
+}
+.eAround{
+	justify-content: space-around;
+}
+.eCenter{
+	justify-content: center;
+}
+.eAlign{
+	align-items: center;
+}
+.eStart{
+	justify-content: flex-start;
+}
+.eEnd{
+	justify-content: flex-end;
+}
+.eTall{
+	height: 100%;
+}
+.eWide{
+	width: 100%;
+}
+.eGrow{
+	flex-grow: 999;
+}
+.eTextCenter{
+	text-align: center;
+}
