@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Montiey's</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+	</head>
+	<body class="eRow eCenter eGrow">
+		<div id="container" class="eRow eCenter eGrow">	
+			{{BLOCKINSERT}}
+		</div>
+	</body>
+</html>

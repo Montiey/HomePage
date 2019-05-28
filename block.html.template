@@ -1,0 +1,21 @@
+<!-- template block-->
+<div class="block eCol">
+	<div class="blockBanner eCol eCenter" style="background-color: {{BANNERCOLOR}};">
+		<div class="blockBannerTitle eRow eCenter" style="color: {{BANNERTEXTCOLOR}}">
+			{{BANNERTEXT}}
+		</div>
+	</div>
+	<div class="blockBody eCol eAlign" style="background-color: {{BODYCOLOR}}; color: {{BODYTEXTCOLOR}};">
+		<a href="{{URL}}" class="thumbA">
+			<img src="data:image/png;base64, {{THUMB64}}" class="blockThumbnail">
+		</a>
+		<div class="eRow eCenter blockText">
+			{{BODYTEXT}}
+		</div>
+		<div class="blockRepository">
+			<a href="{{REPOSITORYURL}}" style="color: {{BODYTEXTCOLOR}};">
+				{{REPOSITORYURL}}
+			</a>
+		</div>
+	</div>
+</div>
