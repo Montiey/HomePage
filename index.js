@@ -10,8 +10,7 @@ const thumbDataTag = "{{THUMB64}}";
 const blockTemplateFile = "block.html.template";
 const templateFile = "index.html.template";
 
-//const recompileInterval = 240000;
-const recompileInterval = 0;
+const recompileInterval = 2*60*1000;
 var lastCompileTime = 0;
 var compiledTemplate = "";
 

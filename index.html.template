@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
@@ -6,9 +7,30 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
 	</head>
-	<body class="eRow eCenter eGrow">
+	<body class="eCol">
 		<div id="container" class="eRow eCenter eGrow">	
 			{{BLOCKINSERT}}
 		</div>
+		<div class="lowerBanner eRow eBetween">
+			<div class="eCol eBetween">
+				<div class="">
+					Welcome to Montiey's homepage
+					<br>
+					There's a 90% chance i'm bored, so feel free to suggest additional projects, games, or other content.
+
+				</div>
+				<div class="">
+					bitcoincash:qzj3r920440a9q4vs67mmggkxmpdjur0wg6eegwcvd
+					<br>
+					&copy; 2019 Jason Harriot
+				</div>
+			</div> 
+			<div class="eRow eCenter">
+				<!--<iframe src='https://donatebutton.cash/e?a=qptwck6hsgtj6hn7v6y6e86cuwx0mh4fngtrqert0a&l=send me $' width='150' height='150' style='border:none;overflow:hidden'></iframe>-->
+				<img src="bcash.png" class="donateAddress">
+			</div>
+
+		</div>
+
 	</body>
 </html>

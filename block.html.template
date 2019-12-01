@@ -5,7 +5,7 @@
 			{{BANNERTEXT}}
 		</div>
 	</div>
-	<div class="blockBody eCol eAlign" style="background-color: {{BODYCOLOR}}; color: {{BODYTEXTCOLOR}};">
+	<div class="blockBody eCol eAlign" style="background-color: #ddd /*{-{BODYCOLOR}}*/; color: #000 /*{-{BODYTEXTCOLOR}}*/;">
 		<a href="{{URL}}" class="thumbA">
 			<img src="data:image/png;base64, {{THUMB64}}" class="blockThumbnail">
 		</a>
@@ -13,7 +13,7 @@
 			{{BODYTEXT}}
 		</div>
 		<div class="blockRepository">
-			<a href="{{REPOSITORYURL}}" style="color: {{BODYTEXTCOLOR}};">
+			<a href="{{REPOSITORYURL}}" style="color: #000 /*{-{BODYTEXTCOLOR}}*/;">
 				{{REPOSITORYURL}}
 			</a>
 		</div>
